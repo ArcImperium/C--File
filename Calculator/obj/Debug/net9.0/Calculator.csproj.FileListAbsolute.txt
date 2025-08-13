@@ -12,3 +12,4 @@ c:\Users\elip2\OneDrive\C# File\Calculator\obj\Debug\net9.0\refint\Calculator.dl
 c:\Users\elip2\OneDrive\C# File\Calculator\obj\Debug\net9.0\Calculator.pdb
 c:\Users\elip2\OneDrive\C# File\Calculator\obj\Debug\net9.0\Calculator.genruntimeconfig.cache
 c:\Users\elip2\OneDrive\C# File\Calculator\obj\Debug\net9.0\ref\Calculator.dll
+C:\Users\elip2\OneDrive\C# File\Calculator\obj\Debug\net9.0\Calculator.sourcelink.json

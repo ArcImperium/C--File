@@ -22,7 +22,7 @@
     }
 }
 
-int getNum (int choice, int num1, int num2)
+float getNum (int choice, float num1, float num2)
 {
     if (choice == 1)
     {
@@ -76,12 +76,19 @@ while (run == true)
 
         string sign = getSign(choice);
 
-        int num1 = Convert.ToInt32(Console.ReadLine());
-        Console.Write(num1 + sign);
-        int num2 = Convert.ToInt32(Console.ReadLine());
+        float num1 = Convert.ToInt32(Console.ReadLine());
+        Console.Write($"{num1:F2}" + sign);
+        float num2 = Convert.ToInt32(Console.ReadLine());
 
-        int num3 = getNum(choice, num1, num2);
-        Console.WriteLine(num1 + sign + num2 + "=" + num3);
+        if (num2 == 0)
+        {
+            Console.WriteLine($"{num1:F2}" + sign + $"{num2:F2}" + "=" + "undefined");
+        }
+        else
+        {
+            float num3 = getNum(choice, num1, num2);
+            Console.WriteLine($"{num1:F2}" + sign + $"{num2:F2}" + "=" + $"{num3:F2}");
+        }
     }
     else
     {

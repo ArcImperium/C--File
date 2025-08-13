@@ -1,0 +1,2 @@
+C:\Users\elip2\OneDrive\C# File\Calculator\bin\Release\net9.0\win-x64\publish\Calculator.pdb
+C:\Users\elip2\OneDrive\C# File\Calculator\bin\Release\net9.0\win-x64\publish\Calculator.exe
